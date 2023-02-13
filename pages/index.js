@@ -36,11 +36,11 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Explain me this concept like I'm 5</h1>
+            <h1>Explain me like I'm 5</h1>
           </div>
           <div className="header-subtitle">
             <h2>
-              Don't shame people for not knowing something. Help them learn it.
+              Throw any concept and get a simple explanation in plain English
             </h2>
           </div>
         </div>
