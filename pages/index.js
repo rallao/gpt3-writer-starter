@@ -36,12 +36,11 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Get a customized gym routine from Goku</h1>
+            <h1>Explain me this concept like I'm 5</h1>
           </div>
           <div className="header-subtitle">
             <h2>
-              Put here how many days and how much time per session you want to
-              workout.
+              Don't shame people for not knowing something. Help them learn it.
             </h2>
           </div>
         </div>
@@ -87,8 +86,7 @@ const Home = () => {
       <div className="badge-container grow">
         <a href="https://twitter.com/rallao_" target="_blank" rel="noreferrer">
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build by rallao</p>
+            <p>🚀 Build by rallao</p>
           </div>
         </a>
       </div>
