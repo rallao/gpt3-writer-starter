@@ -19,7 +19,7 @@ const generateAction = async (req, res) => {
     model: "text-davinci-003",
     prompt: `${basePromptPrefix}${req.body.userInput}`,
     temperature: 0.8,
-    max_tokens: 100, // I set this to 100 because vercel has a 10 second timeout.
+    max_tokens: 250, // I set this to 100 because vercel has a 10 second timeout.
   });
 
   const basePromptOutput = baseCompletion.data.choices.pop();
